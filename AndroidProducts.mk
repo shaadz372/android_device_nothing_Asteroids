@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Asteroids.mk
+    $(LOCAL_DIR)/twrp_Asteroids.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Asteroids-user \
-    omni_Asteroids-userdebug \
-    omni_Asteroids-eng
+    twrp_Asteroids-user \
+    twrp_Asteroids-userdebug \
+    twrp_Asteroids-eng
