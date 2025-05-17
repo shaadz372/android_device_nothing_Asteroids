@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/nothing/Asteroids/device.mk)
 
 PRODUCT_DEVICE := Asteroids
-PRODUCT_NAME := omni_Asteroids
+PRODUCT_NAME := twrp_Asteroids
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A059
 PRODUCT_MANUFACTURER := nothing
