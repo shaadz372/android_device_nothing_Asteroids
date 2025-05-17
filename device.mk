@@ -13,25 +13,19 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
 
-# Boot control HAL
+# Boot control HAL (shared library version)
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
-
-PRODUCT_PACKAGES += \
-    bootctrl.volcano
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL += \
+    android.hardware.boot@1.0-service \
     bootctrl.volcano \
     libgptutils \
     libz \
-    libcutils
-
-PRODUCT_PACKAGES += \
+    libcutils \
     otapreopt_script \
     cppreopts.sh \
     update_engine \
     update_verifier \
     update_engine_sideload
 
+# Set platform version
 PRODUCT_PLATFORM_VERSION := 15
