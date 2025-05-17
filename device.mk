@@ -27,5 +27,4 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
-# Set platform version
-PRODUCT_PLATFORM_VERSION := 15
+
