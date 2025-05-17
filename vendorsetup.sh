@@ -5,7 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# add_lunch_combo 
-twrp_Asteroids-user
-twrp_Asteroids-userdebug
-twrp_Asteroids-eng
+add_lunch_combo twrp_Asteroids-user
+add_lunch_combo twrp_Asteroids-userdebug
+add_lunch_combo twrp_Asteroids-eng
