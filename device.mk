@@ -27,4 +27,4 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
-
+TARGET_PLATFORM_VERSION := 15
