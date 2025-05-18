@@ -8,3 +8,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
+work on pregnant × progress ✓ 😂😂
+
+hold on, once it will be bootable, I'll mention all shits here:))))
