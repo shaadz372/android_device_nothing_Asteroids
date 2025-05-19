@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="shaadz372/android_device_nothing_Asteroids"
-           path="device/nothing/Asteroids"
-           remote="github"
-           revision="Fifteen" />
-</manifest>
